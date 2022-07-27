@@ -4,54 +4,79 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <title>Tech website</title>
 </head>
 <body>
   <header>
     <!-- Navbar section  -->
-    <section>
-      <nav class="navbar navbar-expand-lg bg-light">
+    <section class="">
+      <nav class="navbar navbar-expand-lg bg-light mb-5">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="d-flex justify-content-center col-4 px-5">
+            <a class="navbar-brand text-success fw-bold" href="#">STUDY POINT</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+          <div class="collapse navbar-collapse col-6 " id="navbarNav">
+            <ul class="navbar-nav mx-5 ">
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold" aria-current="page" href="#" >Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Course</a>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold" href="#">Features</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">Deal</a>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold" href="#">Courses</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">Success</a>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold" href="">Deals</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">About</a>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold" href="">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">Register</a>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold" href="">Contact Us</a>
               </li>
-              <li>
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </li>
-            </ul>           
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse col-2" id="navbarNav">
+            <button class="btn btn-outline-success fw-bold" type="submit">Search</button>
           </div>
         </div>
       </nav>
     </section>
     <!-- Navbar Section end  -->
+    <section class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item images-fuild">
+            <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
   </header>
 
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> 
 </body>
 </html>
